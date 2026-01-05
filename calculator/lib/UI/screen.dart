@@ -41,7 +41,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                 displayText,
                 style: TextStyle(
                   fontSize: 38,
-                  color: Colors.blueGrey[700],
+                  color: Colors.blueGrey[750],
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -80,7 +80,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                   // Numbers & point
                   else if ('0123456789.'.contains(button)) {
                     bgColor = Colors.white;
-                    textColor = Colors.blueGrey[700];
+                    textColor = Colors.blueGrey[750];
                     fontWeight = FontWeight.bold;
                     shadowColor = Colors.black26;
                     textShadow = [
@@ -95,7 +95,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                   else {
                     bgColor = Colors.grey[300]!;
                     textColor = Colors.black87;
-                    fontWeight = FontWeight.normal;
+                    fontWeight = FontWeight.bold;
                     shadowColor = Colors.black12;
                     textShadow = [];
                   }
@@ -175,7 +175,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
-                              color: Colors.blueGrey[700],
+                              color: Colors.blueGrey[750],
                             ),
                           ),
                         ),
@@ -211,7 +211,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
-                              color: Colors.blueGrey[700],
+                              color: Colors.blueGrey[750],
                             ),
                           ),
                         ),
