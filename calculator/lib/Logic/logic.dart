@@ -31,22 +31,22 @@ String handleInput(String input) {
       case '%':
         newVal = val / 100;
         break;
-      case 'sin':
-    display = display.replaceRange(match.start, match.end, (sin(val * pi / 180)).toStringAsFixed(4));
-    return display;
-  case 'cos':
-    display = display.replaceRange(match.start, match.end, (cos(val * pi / 180)).toStringAsFixed(4));
-    return display;
-  case 'tan':
-    display = display.replaceRange(match.start, match.end, (tan(val * pi / 180)).toStringAsFixed(4));
-    return display;
-  case 'log':
-    if (val > 0) {
-      display = display.replaceRange(match.start, match.end, (log(val)/ln10).toStringAsFixed(4));
-    } else {
-      display = "Error";
-    }
-    return display;
+  //     case 'sin':
+  //   display = display.replaceRange(match.start, match.end, (sin(val * pi / 180)).toStringAsFixed(4));
+  //   return display;
+  // case 'cos':
+  //   display = display.replaceRange(match.start, match.end, (cos(val * pi / 180)).toStringAsFixed(4));
+  //   return display;
+  // case 'tan':
+  //   display = display.replaceRange(match.start, match.end, (tan(val * pi / 180)).toStringAsFixed(4));
+  //   return display;
+  // case 'log':
+  //   if (val > 0) {
+  //     display = display.replaceRange(match.start, match.end, (log(val)/ln10).toStringAsFixed(4));
+  //   } else {
+  //     display = "Error";
+  //   }
+    // return display;
 
     }
 
